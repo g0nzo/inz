@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Strona główna</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300&amp;subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <div id="bigWrapper">
+        <div id="header">
+            <div class="top">
+                 <a href = "index.html"> LOGO </a>
+
+
+                <nav>
+                    <a href="login.html"> LOGOWANIE </a>
+                    <a href="register.html"> REJESTRACJA </a>
+                </nav>
+            </div>
+
+        </div>
+
+
+        <div class="wrapper">
+
+
+                <div class="box loginBox">
+				
+                    <span class = "boxTitle"> Rejestracja </span>
+                    <form action = "" method = "POST">
+						<label for="email">Email:</label> <input type = "text" name = "email" id = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  title = "twoj@email.pl" required>
+						<label for="password">Hasło:</label><input type = "password" name = "password" id = "password" pattern=".{6,}" title="Co najmniej 6 znaków" required>
+						<label for="password2">Powtórz hasło:</label><input type = "password" name = "password2" pattern=".{6,}" title="Co najmniej 6 znaków" id = "password2" required>
+						<input type="radio" name="role" value="employee" required> Pracownik 
+						<input type="radio" name="role" value="employer"> Pracodawca
+						
+						<input type = "submit" value = "Zarejestruj">
+						 
+					</form>
+					<div class = "links">
+						<a href = "login.html"> Mam już konto </a> 
+					</div>
+                </div>
+
+                
+
+        </div>
+        <div id="footer">
+            dsfsdf
+        </div>
+    </div>
+
+</body>
+
+</html>
